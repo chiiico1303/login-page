@@ -22,7 +22,6 @@ form {
   display: grid;
   gap: 20px;
   place-items: center;
-  
 }
 
 h3 {
@@ -80,20 +79,22 @@ span {
 }
 
 .social-midia {
-  border-radius: 10px;
+  max-width: 300px;
 }
 
 .social-midia h3 {
   display: flex;
-  font-size: 1.4rem;
   justify-content: center;
+  font-size: 1.4rem;
 }
 
 .social-midia div {
   display: inline-flex;
+  margin: 0 10px;
+
   color: #fff;
   font-size: 4rem;
-  margin: 0 15px;
+
   cursor: pointer;
 }
 
@@ -105,23 +106,28 @@ span {
   body {
     margin: 0px 2px;
     background-position: 38%;
-    background-size: cover;
+
     height: 100vh;
-    
   }
 
   h3 {
     margin-top: -10%;
   }
+
   .login {
     margin-top: -30%;
+  }
+
+  .login h1 {
+  margin: 0 100px;
+  text-align: center;
   }
 
   .login input {
     height: 48px;
     border: 2px solid #8d4fff;
   }
-  
+
   .login button {
     height: 48px;
   }
