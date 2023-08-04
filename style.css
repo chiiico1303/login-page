@@ -107,10 +107,19 @@ span {
     background-position: 38%;
     background-size: cover;
     height: 100vh;
+    
+  }
+
+  h3 {
+    margin-top: -10%;
+  }
+  .login {
+    margin-top: -30%;
   }
 
   .login input {
     height: 48px;
+    border: 2px solid #8d4fff;
   }
   
   .login button {
