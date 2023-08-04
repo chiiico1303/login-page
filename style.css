@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin-left: 50%;
+  font-family: "Roboto", sans-serif;
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*border: 1px solid red;*/
+  /*max-width: 400px;*/
+}
+
+form {
+  display: grid;
+  gap: 20px;
+  place-items: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+span {
+  color: #8d4fff;
+  cursor: pointer;
+}
+
+.login h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 15rem;
+  margin: 15px 0;
+}
+
+.login input {
+  width: 80%;
+  height: 56px;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 30px;
+}
+
+.login button {
+  cursor: pointer;
+  width: 70%;
+  height: 56px;
+  background: #8d4fff;
+  color: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.login a {
+  color: #8d4fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.login button:hover {
+  background: #742df6;
+}
+
+.social-midia {
+  border-radius: 10px;
+}
+
+.social-midia h3 {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
+.social-midia div {
+  display: inline-flex;
+  color: #fff;
+  font-size: 4rem;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.social-midia div:hover {
+  color: #8d4fff;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    margin: 0px;
+    background-position: 38%;
+    background-size: cover;
+    height: 100vh;
+  }
+}
