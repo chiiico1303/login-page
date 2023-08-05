@@ -7,6 +7,7 @@
 }
 
 body {
+  
   display: grid;
   place-items: center;
   margin-left: 50%;
@@ -14,14 +15,19 @@ body {
   background-image: url(./img/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /*border: 1px solid red;*/
-  /*max-width: 400px;*/
+ /* border: 1px solid red;*/
+  
 }
+
+/*.container {
+  border: 1px solid red;
+}*/
 
 form {
   display: grid;
   gap: 20px;
   place-items: center;
+  
 }
 
 h3 {
@@ -78,19 +84,19 @@ span {
   background: #742df6;
 }
 
-.social-midia {
-  max-width: 300px;
-}
-
-.social-midia h3 {
-  display: flex;
-  justify-content: center;
+div > h3 {
+  text-align: center;
   font-size: 1.4rem;
 }
 
+.social-midia {
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .social-midia div {
-  display: inline-flex;
-  margin: 0 10px;
   color: #fff;
   font-size: 4rem;
   cursor: pointer;
@@ -104,15 +110,21 @@ span {
   body {
     margin: 0px 2px;
     background-position: 38%;
+  }
+
+  .container {
+    
     height: 100vh;
   }
 
-  h3 {
-    margin-top: -20%;
+  .container h3 {
+    text-align: center;
+    
   }
 
   .login {
-    margin-top: -30%;
+    
+    margin: 15% 0;
   }
 
   .login h1 {
@@ -130,6 +142,9 @@ span {
   }
 
   .social-midia {
-    margin-top: -40%;
+    
+    display: flex;
+    justify-content: center;
+    gap: 25px;
   }
 }
