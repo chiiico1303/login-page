@@ -8,23 +8,20 @@
   font-size: 10px;
 }
 
-body {
-  margin-left: 50%;
+.container {
+  height: 100vh;
+  width: 100%;
   font-family: "Roboto", sans-serif;
   background-image: url(./img/bg.png);
   background-size: cover;
-  /*border: 1px solid red;*/
   text-align: center;
-}
-
-.container {
-  display: grid;
-  place-items: center;
-  height: 100vh;
+  color: #fff;
+  /*border: 1px solid red;*/
 }
 
 .login {
-  width: 100%;
+  margin-left: 40%;
+  padding: 10% 0 0 0;
 }
 
 form {
@@ -33,9 +30,9 @@ form {
   gap: 20px;
 }
 
-h3 {
+.container h3 {
   font-size: 1.4rem;
-  color: #fff;
+  margin-left: 40%;
 }
 
 span {
@@ -46,17 +43,14 @@ span {
 .login h1 {
   font-size: 3.6rem;
   font-weight: 600;
-  color: #fff;
 }
 
 .user {
-  color: #fff;
   font-size: 15rem;
-  margin: 15px 0;
 }
 
 .login input {
-  width: 70%;
+  width: 50%;
   height: 56px;
   border-radius: 10px;
   font-size: 2rem;
@@ -66,7 +60,7 @@ span {
 
 .login button {
   cursor: pointer;
-  width: 50%;
+  width: 30%;
   height: 56px;
   background: #8d4fff;
   color: #f9f9f9;
@@ -86,16 +80,16 @@ span {
 }
 
 .social-midia h3 {
-  margin: -50% 0 10% 0;
+  margin-left: 0;
+  margin: 5% 0 2%;
   font-size: 1.4rem;
 }
 
 .social-midia div {
-  display: inline-flex;
-  color: #fff;
   font-size: 4rem;
-  cursor: pointer;
+  display: inline-flex;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .social-midia div:hover {
@@ -103,10 +97,15 @@ span {
 }
 
 @media only screen and (max-width: 700px) {
-  body {
-    margin: 0px;
+  .container {
     background-position: 38%;
-  /*  border: 1px solid red;*/
+
+    /*border: 1px solid red;*/
+  }
+
+  .login {
+    margin-left: 0%;
+    padding: 30% 0 0;
   }
 
   .login h1 {
@@ -114,11 +113,22 @@ span {
   }
 
   .login input {
+    width: 70%;
     height: 48px;
-    border: 2px solid #8d4fff;
   }
 
   .login button {
+    width: 50%;
     height: 48px;
+  }
+
+  .login a {
+    color: #8d4fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+
+  .social-midia h3 {
+    margin: 5% 0 3%;
   }
 }
