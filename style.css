@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -7,27 +9,28 @@
 }
 
 body {
-  
-  display: grid;
-  place-items: center;
   margin-left: 50%;
   font-family: "Roboto", sans-serif;
   background-image: url(./img/bg.png);
   background-size: cover;
-  background-repeat: no-repeat;
- /* border: 1px solid red;*/
-  
+  /*border: 1px solid red;*/
+  text-align: center;
 }
 
-/*.container {
-  border: 1px solid red;
-}*/
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.login {
+  width: 100%;
+}
 
 form {
   display: grid;
-  gap: 20px;
   place-items: center;
-  
+  gap: 20px;
 }
 
 h3 {
@@ -47,15 +50,13 @@ span {
 }
 
 .user {
-  display: flex;
-  justify-content: center;
   color: #fff;
   font-size: 15rem;
   margin: 15px 0;
 }
 
 .login input {
-  width: 80%;
+  width: 70%;
   height: 56px;
   border-radius: 10px;
   font-size: 2rem;
@@ -65,7 +66,7 @@ span {
 
 .login button {
   cursor: pointer;
-  width: 70%;
+  width: 50%;
   height: 56px;
   background: #8d4fff;
   color: #f9f9f9;
@@ -84,22 +85,17 @@ span {
   background: #742df6;
 }
 
-div > h3 {
-  text-align: center;
+.social-midia h3 {
+  margin: -50% 0 10% 0;
   font-size: 1.4rem;
 }
 
-.social-midia {
-  
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
 .social-midia div {
+  display: inline-flex;
   color: #fff;
   font-size: 4rem;
   cursor: pointer;
+  margin: 0 10px;
 }
 
 .social-midia div:hover {
@@ -108,28 +104,13 @@ div > h3 {
 
 @media only screen and (max-width: 700px) {
   body {
-    margin: 0px 2px;
+    margin: 0px;
     background-position: 38%;
-  }
-
-  .container {
-    
-    height: 100vh;
-  }
-
-  .container h3 {
-    text-align: center;
-    
-  }
-
-  .login {
-    
-    margin: 15% 0;
+  /*  border: 1px solid red;*/
   }
 
   .login h1 {
     margin: 0 100px;
-    text-align: center;
   }
 
   .login input {
@@ -139,12 +120,5 @@ div > h3 {
 
   .login button {
     height: 48px;
-  }
-
-  .social-midia {
-    
-    display: flex;
-    justify-content: center;
-    gap: 25px;
   }
 }
