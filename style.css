@@ -91,10 +91,8 @@ span {
 .social-midia div {
   display: inline-flex;
   margin: 0 10px;
-
   color: #fff;
   font-size: 4rem;
-
   cursor: pointer;
 }
 
@@ -106,21 +104,24 @@ span {
   body {
     margin: 0px 2px;
     background-position: 38%;
-
     height: 100vh;
   }
 
-  h3 {
-    margin-top: -10%;
+  body > h3 {
+    position: fixed;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
   }
 
   .login {
-    margin-top: -30%;
+    /*margin-top: -30%;*/
   }
 
   .login h1 {
-  margin: 0 100px;
-  text-align: center;
+    margin: 0 100px;
+    text-align: center;
   }
 
   .login input {
@@ -131,7 +132,8 @@ span {
   .login button {
     height: 48px;
   }
+
   .social-midia {
-    margin-top: -35%;
+    margin-top: -250px;
   }
 }
