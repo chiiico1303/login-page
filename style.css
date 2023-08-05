@@ -107,16 +107,12 @@ span {
     height: 100vh;
   }
 
-  body > h3 {
-    position: fixed;
-    left: 0;
-    bottom: 100px;
-    width: 100%;
-    text-align: center;
+  h3 {
+    margin-top: -20%;
   }
 
   .login {
-    /*margin-top: -30%;*/
+    margin-top: -30%;
   }
 
   .login h1 {
@@ -134,6 +130,6 @@ span {
   }
 
   .social-midia {
-    margin-top: -250px;
+    margin-top: -40%;
   }
 }
