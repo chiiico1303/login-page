@@ -44,6 +44,7 @@ span {
 .login h1 {
   font-size: 3.6rem;
   font-weight: 600;
+  
 }
 
 .user {
@@ -104,21 +105,23 @@ span {
   }
 
   .container h3 {
-  font-size: 1.4rem;
-  margin-left: 0%;
-  padding-top: 10%;
-}
+    font-size: 1.4rem;
+    margin-left: 0%;
+    padding-top: 5%;
+  }
 
   .login {
     margin-left: 0%;
-    padding: 15% 0 0;
   }
 
   .login h1 {
+    /*color: #000;*/
     margin: 0 100px;
   }
 
   .login input {
+    /*background: #000;
+    color: #fff;*/
     width: 70%;
     height: 48px;
     border: 2px solid #8d4fff;
@@ -126,6 +129,7 @@ span {
   }
 
   .login button {
+    /*color: #000;*/
     width: 50%;
     height: 48px;
   }
@@ -137,6 +141,6 @@ span {
   }
 
   .social-midia h3 {
-    margin: 5% 0 3%;
+    margin: 3% 0;
   }
 }
