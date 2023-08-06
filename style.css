@@ -21,7 +21,7 @@
 
 .login {
   margin-left: 40%;
-  padding: 10% 0 0 0;
+  padding-top: 8%;
 }
 
 form {
@@ -33,6 +33,7 @@ form {
 .container h3 {
   font-size: 1.4rem;
   margin-left: 40%;
+  padding-top: 2%;
 }
 
 span {
@@ -50,12 +51,12 @@ span {
 }
 
 .login input {
-  width: 50%;
+  width: 40%;
   height: 56px;
   border-radius: 10px;
   font-size: 2rem;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  padding-left: 30px;
+  border: 2px solid #8d4fff;
+  padding-left: 20px;
 }
 
 .login button {
@@ -81,7 +82,7 @@ span {
 
 .social-midia h3 {
   margin-left: 0;
-  margin: 5% 0 2%;
+  margin: 2% 0;
   font-size: 1.4rem;
 }
 
@@ -105,12 +106,12 @@ span {
   .container h3 {
   font-size: 1.4rem;
   margin-left: 0%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
   .login {
     margin-left: 0%;
-    padding: 30% 0 0;
+    padding: 15% 0 0;
   }
 
   .login h1 {
@@ -120,6 +121,8 @@ span {
   .login input {
     width: 70%;
     height: 48px;
+    border: 2px solid #8d4fff;
+    padding: 0 20px;
   }
 
   .login button {
